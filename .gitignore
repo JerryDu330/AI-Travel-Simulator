@@ -1,0 +1,29 @@
+# Environment
+.env
+*.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.venv/
+*.egg-info/
+
+# macOS
+.DS_Store
+~$*.xlsx
+
+# API caches
+amap_geocache.json
+
+# Generated outputs
+ai_routes.json
+filled.json
+*_距离.xlsx
+*_PUB151.xlsx
+*_海运距离.xlsx
+
+# Large nav data (download separately)
+nav-data.min.js
